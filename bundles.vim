@@ -17,7 +17,7 @@ Bundle 'tsaleh/vim-matchit'
 
 Bundle 'scrooloose/nerdcommenter'
 
-Bundle 'Lokaltog/vim-powerline'
+"Bundle 'Lokaltog/vim-powerline'
 
 Bundle 'kien/ctrlp.vim'
 
@@ -49,7 +49,7 @@ Bundle 'mattn/zencoding-vim'
 
 Bundle 'honza/snipmate-snippets'
 
-Bundle 'tpope/vim-fugitive'
+"Bundle 'tpope/vim-fugitive'
 
 Bundle 'FavEx'
 
