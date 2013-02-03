@@ -61,8 +61,8 @@ let NERDTreeWinPos="right"
 let NERDTreeShowBookmarks=1
 
 "git-vim
-set laststatus=2
-set statusline=%{GitBranch()}
+"set laststatus=2
+"set statusline=%{GitBranch()}
 
 "ZenCoding
 let g:user_zen_expandabbr_key='<C-j>'
