@@ -61,4 +61,6 @@ Bundle 'tpope/vim-rails'
 
 "Bundle 'ack'
 
+Bundle 'cssbaseline.vim'
+
 filetype plugin indent on
