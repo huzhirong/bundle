@@ -98,9 +98,9 @@ imap <expr><TAB> neosnippet#expandable_or_jumpable() ? "\<Plug>(neosnippet_expan
 smap <expr><TAB> neosnippet#expandable_or_jumpable() ? "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
 
 " For snippet_complete marker.
-if has('conceal')
- set conceallevel=2 concealcursor=i
-endif
+"if has('conceal')
+" set conceallevel=2 concealcursor=i
+"endif
 
 let g:neosnippet#snippets_directory='~/.vim/bundle/snipmate-snippets/snippets'
 
@@ -123,6 +123,14 @@ autocmd FileType c setlocal omnifunc=ccomplete#Complete
 "let g:SuperTabDefultCompletionType='context'
 let g:SuperTabDefaultCompletionType = '<C-X><C-U>'
 let g:SuperTabRetainCompletionType=2
+
+"ScrollColors插件
+map <leader>sc :SCROLL
+
+"ctrlp
+map <leader>o :CtrlP<CR>
+let g:ctrlp_max_height = 20
+let g:ctrlp_working_path_mode = 'rw'
 
 " Tagbar
 " snippet#snippets_directory='~/.vim/bundle/snipmate-snippets/snippets'jjkk

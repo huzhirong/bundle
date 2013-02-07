@@ -53,4 +53,10 @@ Bundle 'tpope/vim-rails'
 
 Bundle 'cssbaseline.vim'
 
+Bundle 'mattn/webapi-vim'
+
+Bundle 'mattn/vdbi-vim'
+
+Bundle 'mattn/gist-vim'
+
 filetype plugin indent on
